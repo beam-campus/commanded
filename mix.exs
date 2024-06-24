@@ -7,7 +7,7 @@ defmodule Commanded.Mixfile do
     [
       app: :commanded,
       version: @version,
-      elixir: "~> 1.12",
+      elixir: "~> 1.18-dev",
       elixirc_paths: elixirc_paths(Mix.env()),
       deps: deps(),
       description: description(),
@@ -233,7 +233,7 @@ defmodule Commanded.Mixfile do
       maintainers: ["Ben Smith"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/commanded/commanded"
+        "GitHub" => "https://github.com/beam-campus/commanded"
       }
     ]
   end
